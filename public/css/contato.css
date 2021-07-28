@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding: 0;     /* RESETA TUDO */
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.ctt{
+    margin-left: 25px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    border:none;
+    color:white;
+}
+.menu{
+    display:flex;
+    flex: 2;
+    align-items: center;
+}
+.menu-ini{
+    max-width: 1140px;
+    height: 100px;
+    margin: auto; /*DEIXA O CONTEUDO NO MEIO */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.active{
+    margin-left: 20px;
+}
+.nav-menu ul{
+    list-style:none;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    
+    
+}
+.nav-menu li{
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    color:#0000CD;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+}
+.menu-1{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex:2;
+}
+.menu-1 p{
+    align-self: center;
+    font-weight: 500;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+                /* PAGINA DE CONTATO */
+.sec-1{
+    margin-bottom: 100px;
+    margin-top: 70px;
+    color: #0000CD;
+}
+.contato{
+    display: flex;
+    flex:1;
+}
+.ctt1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+
+
+
+}
+.ctt1 small{
+    display: flex;
+    flex: 1;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #00008B;
+}
+.ctt1 p{
+    display: flex;
+    font-size: 12px;
+    flex: 1;
+    margin-bottom: 20px;
+
+}
+/* ---------------------------------------------------*/
+.cttForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    margin-top: 30px;
+}
+.name{
+    padding-bottom: 10px;
+}
+.name input{
+    padding: 10px 20px;
+    border: 1px solid #006bc4;
+    border-radius: 4px;
+}
+.name-2 input{
+    padding: 10px 20px;
+    border: 1px solid #006bc4;
+    border-radius: 4px;
+    width: 420px;
+}
+.select{
+    display: flex;
+}
+.select select{
+    padding: 10px 20px;
+    border: 1px solid #006bc4;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 200px;
+    display: flex;
+    flex: 1;
+}
+.select button{
+    background-color: #000080;
+    color:#fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    display: flex;
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+                /* SEÇÃO FAIXA AZUL */
+.sec-4{
+    background-color:blue;
+    display: flex;
+    flex: 1;
+    color:white;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.d-p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.d-t{
+    text-align: center;
+}
+.d-t button{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color:#0000CD;
+}
+.d-t p{
+    font-size: 12px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+                /* RODAPÉ DA PAGINA */
+.final{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.final img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.f-d{
+    width: 200px;
+    font-size: 12px;
+    color:#0000CD;
+}
+
+.f-d2{
+    font-size: 12px;
+    color:#0000CD;
+}
+.f-img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.f-img img{
+    margin-left: -60px;
+    align-items: center;
+}
+.f-r{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.f-d1{
+    margin-bottom: 10px;
+}
+.f-d-2{
+    margin-bottom: 10px;
+}
