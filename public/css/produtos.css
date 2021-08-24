@@ -1,0 +1,27 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+.section1{
+    margin-bottom: 30px;
+    text-align: right;
+    margin-right: 20px;
+}
+th,td{
+    border: 1px solid #CCC;
+    padding: 5px;
+    font-size: 13px;
+}
+tbody tr:nth-child(even){
+    background-color: #FFEFD5;
+   }
+.button-create{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}

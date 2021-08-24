@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding: 0;     /* RESETA TUDO */
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
 body{
     margin-left: 10px;
     font-family: 'Rajdhani', sans-serif;
@@ -34,3 +40,12 @@ p{
     
     
 }
+table{
+    width: 100%;
+}
+table,
+th,
+td{
+    border: 1px solid black;
+}
+

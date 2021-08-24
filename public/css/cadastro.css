@@ -1,0 +1,19 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.form{
+    text-align: center;
+}
+.form input{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+ }
+.form button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    font-weight: 600;
+    color: blue;
+}

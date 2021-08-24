@@ -1,9 +1,4 @@
-*{
-    margin:0;
-    padding: 0;     /* RESETA TUDO */
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}
+
 .ctt{
     margin-left: 25px;
     border-radius: 20px;
